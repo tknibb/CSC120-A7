@@ -1,4 +1,9 @@
 Use this file to record your reflection on this assignment.
 
+I worked with Julie and Kim.
+
 - Which methods did you decide to `overload`, and why?
+    - In the House class, we overloaded the constructor to be able to make a house with no dining room, elevator, nor kitchen and a house with no dining room, nor elevator, but has a kitchen. In the Library class, we overloaded the addTitle method to add a numerical title of a book to the collection, and we also overloaded the removeTitle method to remove a numerical title of a book out of the collection. Also still in the Library class, we overloaded the checkOut, returnBook, containsTitle, isAvailable methods to be able to work when given a numerical int title as a parameter. Also in the Library class, we added the hasElevator attribute to check if a library has an elevator. In the Cafe class, we also implemented the hasElevator attribute to check once again if a cafe has an elevator. We also overloaded the method sellCoffee if a person orders an americano which is a coffee with no cream nor sugar. We also overloaded a method for restock if the person orders an americano with no cream or sugar and needs to restock the coffee. 
+    
 - What worked, what didn't, what advice would you give someone taking this course in the future?
+    - What worked at the beginning was overriding and overloading methods and constructors but then we faced a problem with overloading a method because the parameters were both integers (even though they have different meanings) the compiler cant differentiate the different values because only the type and order you put them in matters (it is very sensitive in this way). We disregarded this idea and overloaded a different method. My advice I'd give to someone taking this course in the future is to not stress about the workload because it is doable and to work with others but collaboration is key when it comes to coding. 
